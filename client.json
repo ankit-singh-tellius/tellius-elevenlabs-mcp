@@ -3,7 +3,8 @@
   "client_name": "Tellius Kaiya (demo2)",
   "client_uri": "https://www.tellius.com",
   "redirect_uris": [
-    "https://demo2.app.tellius.com/api/mcp/servers/custom_default_elevenlabs/callback"
+    "https://demo2.app.tellius.com/api/mcp/servers/custom_default_elevenlabs/callback",
+    "https://demo2.app.tellius.com/api/mcp/servers/custom_default_elevenlabs_studio/callback"
   ],
   "grant_types": ["authorization_code", "refresh_token"],
   "response_types": ["code"],
