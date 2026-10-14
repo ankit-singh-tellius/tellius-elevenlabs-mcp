@@ -4,10 +4,16 @@
   "client_uri": "https://www.tellius.com",
   "redirect_uris": [
     "https://demo2.app.tellius.com/api/mcp/servers/custom_default_elevenlabs/callback",
-    "https://demo2.app.tellius.com/api/mcp/servers/custom_default_elevenlabs_studio/callback"
+    "https://demo2.app.tellius.com/api/mcp/servers/custom_default_elevenlabs_studio/callback",
+    "https://demo2.app.tellius.com/api/mcp/servers/custom_default_elevenlabs_creative/callback"
   ],
-  "grant_types": ["authorization_code", "refresh_token"],
-  "response_types": ["code"],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
   "token_endpoint_auth_method": "none",
-  "scope": "text_to_speech voice_generation image_video_generation"
+  "scope": "text_to_speech voice_generation image_video_generation flows speech_history_read"
 }
